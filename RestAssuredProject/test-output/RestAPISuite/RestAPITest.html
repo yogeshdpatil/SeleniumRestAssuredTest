@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>TestNG:  RestAPITest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RestAPITest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 29 15:14:55 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5209 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.rest.testcases.TC001_GET_List_of_Users.checkAllUsersResponseForGETRequest()'><b>checkAllUsersResponseForGETRequest</b><br>Test class: com.rest.testcases.TC001_GET_List_of_Users</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC001_GET_List_of_Users@1fb669c3</td></tr>
+<tr>
+<td title='com.rest.testcases.TC001_GET_List_of_Users.checkBaseURIForGETAllRequest()'><b>checkBaseURIForGETAllRequest</b><br>Test class: com.rest.testcases.TC001_GET_List_of_Users</td>
+<td></td>
+<td>1</td>
+<td>com.rest.testcases.TC001_GET_List_of_Users@1fb669c3</td></tr>
+<tr>
+<td title='com.rest.testcases.TC002_GET_Single_User.checkBaseURIForGETSingleRequest()'><b>checkBaseURIForGETSingleRequest</b><br>Test class: com.rest.testcases.TC002_GET_Single_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC002_GET_Single_User@49c66ade</td></tr>
+<tr>
+<td title='com.rest.testcases.TC003_GET_User_Not_Found.checkBaseURIForGETUserNotFound()'><b>checkBaseURIForGETUserNotFound</b><br>Test class: com.rest.testcases.TC003_GET_User_Not_Found</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC003_GET_User_Not_Found@6239aba6</td></tr>
+<tr>
+<td title='com.rest.testcases.TC001_GET_List_of_Users.checkContentTypeForGETAllUserRequest()'><b>checkContentTypeForGETAllUserRequest</b><br>Test class: com.rest.testcases.TC001_GET_List_of_Users</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC001_GET_List_of_Users@1fb669c3</td></tr>
+<tr>
+<td title='com.rest.testcases.TC002_GET_Single_User.checkContentTypeForGETSingleRequest()'><b>checkContentTypeForGETSingleRequest</b><br>Test class: com.rest.testcases.TC002_GET_Single_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC002_GET_Single_User@49c66ade</td></tr>
+<tr>
+<td title='com.rest.testcases.TC006_PATCH_Partial_User_Update.checkContentTypeForPATCHRequest()'><b>checkContentTypeForPATCHRequest</b><br>Test class: com.rest.testcases.TC006_PATCH_Partial_User_Update</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC006_PATCH_Partial_User_Update@68df9280</td></tr>
+<tr>
+<td title='com.rest.testcases.TC004_POST_Create_User.checkContentTypeForPOSTRequest()'><b>checkContentTypeForPOSTRequest</b><br>Test class: com.rest.testcases.TC004_POST_Create_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC004_POST_Create_User@3e6104fc</td></tr>
+<tr>
+<td title='com.rest.testcases.TC005_PUT_Update_User.checkContentTypeForPUTRequest()'><b>checkContentTypeForPUTRequest</b><br>Test class: com.rest.testcases.TC005_PUT_Update_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC005_PUT_Update_User@12359a82</td></tr>
+<tr>
+<td title='com.rest.testcases.TC007_DELETE_User.checkResponseStatusCodeForDELETERequest()'><b>checkResponseStatusCodeForDELETERequest</b><br>Test class: com.rest.testcases.TC007_DELETE_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC007_DELETE_User@479460a6</td></tr>
+<tr>
+<td title='com.rest.testcases.TC006_PATCH_Partial_User_Update.checkResponseStatusCodeForPATCHRequest()'><b>checkResponseStatusCodeForPATCHRequest</b><br>Test class: com.rest.testcases.TC006_PATCH_Partial_User_Update</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC006_PATCH_Partial_User_Update@68df9280</td></tr>
+<tr>
+<td title='com.rest.testcases.TC004_POST_Create_User.checkResponseStatusCodeForPOSTRequest()'><b>checkResponseStatusCodeForPOSTRequest</b><br>Test class: com.rest.testcases.TC004_POST_Create_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC004_POST_Create_User@3e6104fc</td></tr>
+<tr>
+<td title='com.rest.testcases.TC005_PUT_Update_User.checkResponseStatusCodeForPUTRequest()'><b>checkResponseStatusCodeForPUTRequest</b><br>Test class: com.rest.testcases.TC005_PUT_Update_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC005_PUT_Update_User@12359a82</td></tr>
+<tr>
+<td title='com.rest.testcases.TC002_GET_Single_User.checkResposeBodyForGETSingleRequest()'><b>checkResposeBodyForGETSingleRequest</b><br>Test class: com.rest.testcases.TC002_GET_Single_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC002_GET_Single_User@49c66ade</td></tr>
+<tr>
+<td title='com.rest.testcases.TC003_GET_User_Not_Found.checkResposeBodyForGETUserNotFound()'><b>checkResposeBodyForGETUserNotFound</b><br>Test class: com.rest.testcases.TC003_GET_User_Not_Found</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC003_GET_User_Not_Found@6239aba6</td></tr>
+<tr>
+<td title='com.rest.testcases.TC001_GET_List_of_Users.checkStatusCodeForGETAllUserRequest()'><b>checkStatusCodeForGETAllUserRequest</b><br>Test class: com.rest.testcases.TC001_GET_List_of_Users</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC001_GET_List_of_Users@1fb669c3</td></tr>
+<tr>
+<td title='com.rest.testcases.TC002_GET_Single_User.checkStatusCodeForGETSingleRequest()'><b>checkStatusCodeForGETSingleRequest</b><br>Test class: com.rest.testcases.TC002_GET_Single_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC002_GET_Single_User@49c66ade</td></tr>
+<tr>
+<td title='com.rest.testcases.TC003_GET_User_Not_Found.checkStatusCodeForGETUserNotFound()'><b>checkStatusCodeForGETUserNotFound</b><br>Test class: com.rest.testcases.TC003_GET_User_Not_Found</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC003_GET_User_Not_Found@6239aba6</td></tr>
+<tr>
+<td title='com.rest.testcases.TC007_DELETE_User.checkStatusLineForDELETERequest()'><b>checkStatusLineForDELETERequest</b><br>Test class: com.rest.testcases.TC007_DELETE_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC007_DELETE_User@479460a6</td></tr>
+<tr>
+<td title='com.rest.testcases.TC001_GET_List_of_Users.checkStatusLineForGETAllUserRequest()'><b>checkStatusLineForGETAllUserRequest</b><br>Test class: com.rest.testcases.TC001_GET_List_of_Users</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC001_GET_List_of_Users@1fb669c3</td></tr>
+<tr>
+<td title='com.rest.testcases.TC002_GET_Single_User.checkStatusLineForGETSingleRequest()'><b>checkStatusLineForGETSingleRequest</b><br>Test class: com.rest.testcases.TC002_GET_Single_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC002_GET_Single_User@49c66ade</td></tr>
+<tr>
+<td title='com.rest.testcases.TC006_PATCH_Partial_User_Update.checkStatusLineForPATCHRequest()'><b>checkStatusLineForPATCHRequest</b><br>Test class: com.rest.testcases.TC006_PATCH_Partial_User_Update</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC006_PATCH_Partial_User_Update@68df9280</td></tr>
+<tr>
+<td title='com.rest.testcases.TC004_POST_Create_User.checkStatusLineForPOSTRequest()'><b>checkStatusLineForPOSTRequest</b><br>Test class: com.rest.testcases.TC004_POST_Create_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC004_POST_Create_User@3e6104fc</td></tr>
+<tr>
+<td title='com.rest.testcases.TC005_PUT_Update_User.checkStatusLineForPUTRequest()'><b>checkStatusLineForPUTRequest</b><br>Test class: com.rest.testcases.TC005_PUT_Update_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC005_PUT_Update_User@12359a82</td></tr>
+<tr>
+<td title='com.rest.testcases.TC004_POST_Create_User.createUserByPOSTRequest()'><b>createUserByPOSTRequest</b><br>Test class: com.rest.testcases.TC004_POST_Create_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC004_POST_Create_User@3e6104fc</td></tr>
+<tr>
+<td title='com.rest.testcases.TC007_DELETE_User.deleteUserRecord()'><b>deleteUserRecord</b><br>Test class: com.rest.testcases.TC007_DELETE_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC007_DELETE_User@479460a6</td></tr>
+<tr>
+<td title='com.rest.testcases.TC006_PATCH_Partial_User_Update.partialUserUpdateWithPATCHRequest()'><b>partialUserUpdateWithPATCHRequest</b><br>Test class: com.rest.testcases.TC006_PATCH_Partial_User_Update</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC006_PATCH_Partial_User_Update@68df9280</td></tr>
+<tr>
+<td title='com.rest.testcases.TC005_PUT_Update_User.userUpdateWithPUTRequest()'><b>userUpdateWithPUTRequest</b><br>Test class: com.rest.testcases.TC005_PUT_Update_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC005_PUT_Update_User@12359a82</td></tr>
+<tr>
+<td title='com.rest.testcases.TC007_DELETE_User.verifyResponseForDELETERequest()'><b>verifyResponseForDELETERequest</b><br>Test class: com.rest.testcases.TC007_DELETE_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC007_DELETE_User@479460a6</td></tr>
+<tr>
+<td title='com.rest.testcases.TC006_PATCH_Partial_User_Update.verifyResponseForPATCHRequest()'><b>verifyResponseForPATCHRequest</b><br>Test class: com.rest.testcases.TC006_PATCH_Partial_User_Update</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC006_PATCH_Partial_User_Update@68df9280</td></tr>
+<tr>
+<td title='com.rest.testcases.TC004_POST_Create_User.verifyResponseForPOSTRequest()'><b>verifyResponseForPOSTRequest</b><br>Test class: com.rest.testcases.TC004_POST_Create_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC004_POST_Create_User@3e6104fc</td></tr>
+<tr>
+<td title='com.rest.testcases.TC005_PUT_Update_User.verifyResponseForPUTRequest()'><b>verifyResponseForPUTRequest</b><br>Test class: com.rest.testcases.TC005_PUT_Update_User</td>
+<td></td>
+<td>0</td>
+<td>com.rest.testcases.TC005_PUT_Update_User@12359a82</td></tr>
+</table><p>
+</body>
+</html>

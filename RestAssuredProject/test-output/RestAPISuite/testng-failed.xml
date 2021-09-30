@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestAPISuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.rest.utilities.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="RestAPITest(failed)">
+    <classes>
+      <class name="com.rest.testcases.TC005_PUT_Update_User">
+        <methods>
+          <include name="setup"/>
+          <include name="checkResponseStatusCode"/>
+          <include name="testInit"/>
+          <include name="shouldBeAbleToUpdateUserDetails"/>
+          <include name="tearDown"/>
+          <include name="checkStatusLine"/>
+          <include name="verifyResponse"/>
+        </methods>
+      </class> <!-- com.rest.testcases.TC005_PUT_Update_User -->
+      <class name="com.rest.testcases.TC007_DELETE_User">
+        <methods>
+          <include name="setup"/>
+          <include name="testInit"/>
+          <include name="tearDown"/>
+          <include name="verifyResponse"/>
+        </methods>
+      </class> <!-- com.rest.testcases.TC007_DELETE_User -->
+    </classes>
+  </test> <!-- RestAPITest(failed) -->
+</suite> <!-- Failed suite [RestAPISuite] -->

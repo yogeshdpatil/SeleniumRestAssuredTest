@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="RestAPISuite">
+<listeners>
+	<listener class-name="com.rest.utils.Listeners" />
+</listeners>
+	<test thread-count="5" name="RestAPITest">
+		<classes>
+			<class name="com.rest.testcases.TC001_GET_List_of_Users" />
+			<class name="com.rest.testcases.TC002_GET_Single_User" />
+			<class name="com.rest.testcases.TC003_GET_User_Not_Found" />
+			<class name="com.rest.testcases.TC004_POST_Create_User" />
+			<class name="com.rest.testcases.TC005_PUT_Update_User" />
+			<class name="com.rest.testcases.TC006_PATCH_Partial_User_Update" />
+			<class name="com.rest.testcases.TC007_DELETE_User" />			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

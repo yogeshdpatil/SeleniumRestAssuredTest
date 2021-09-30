@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="32" passed="32" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-29T15:14:55 IST" name="RestAPISuite" finished-at="2021-09-29T15:15:00 IST" duration-ms="5209">
+    <groups>
+    </groups>
+    <test started-at="2021-09-29T15:14:55 IST" name="RestAPITest" finished-at="2021-09-29T15:15:00 IST" duration-ms="5209">
+      <class name="com.rest.testcases.TC006_PATCH_Partial_User_Update">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rest.testcases.TC006_PATCH_Partial_User_Update@68df9280]" started-at="2021-09-29T15:14:59 IST" name="setup" finished-at="2021-09-29T15:14:59 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testInit()[pri:0, instance:com.rest.testcases.TC006_PATCH_Partial_User_Update@68df9280]" started-at="2021-09-29T15:14:59 IST" name="testInit" finished-at="2021-09-29T15:14:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="partialUserUpdateWithPATCHRequest()[pri:1, instance:com.rest.testcases.TC006_PATCH_Partial_User_Update@68df9280]" started-at="2021-09-29T15:14:59 IST" name="partialUserUpdateWithPATCHRequest" finished-at="2021-09-29T15:15:00 IST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partialUserUpdateWithPATCHRequest -->
+        <test-method signature="verifyResponseForPATCHRequest()[pri:2, instance:com.rest.testcases.TC006_PATCH_Partial_User_Update@68df9280]" started-at="2021-09-29T15:15:00 IST" name="verifyResponseForPATCHRequest" finished-at="2021-09-29T15:15:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseForPATCHRequest -->
+        <test-method signature="checkResponseStatusCodeForPATCHRequest()[pri:3, instance:com.rest.testcases.TC006_PATCH_Partial_User_Update@68df9280]" started-at="2021-09-29T15:15:00 IST" name="checkResponseStatusCodeForPATCHRequest" finished-at="2021-09-29T15:15:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseStatusCodeForPATCHRequest -->
+        <test-method signature="checkStatusLineForPATCHRequest()[pri:4, instance:com.rest.testcases.TC006_PATCH_Partial_User_Update@68df9280]" started-at="2021-09-29T15:15:00 IST" name="checkStatusLineForPATCHRequest" finished-at="2021-09-29T15:15:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLineForPATCHRequest -->
+        <test-method signature="checkContentTypeForPATCHRequest()[pri:5, instance:com.rest.testcases.TC006_PATCH_Partial_User_Update@68df9280]" started-at="2021-09-29T15:15:00 IST" name="checkContentTypeForPATCHRequest" finished-at="2021-09-29T15:15:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentTypeForPATCHRequest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rest.testcases.TC006_PATCH_Partial_User_Update@68df9280]" started-at="2021-09-29T15:15:00 IST" name="tearDown" finished-at="2021-09-29T15:15:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rest.testcases.TC006_PATCH_Partial_User_Update -->
+      <class name="com.rest.testcases.TC003_GET_User_Not_Found">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rest.testcases.TC003_GET_User_Not_Found@6239aba6]" started-at="2021-09-29T15:14:58 IST" name="setup" finished-at="2021-09-29T15:14:58 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testInit()[pri:0, instance:com.rest.testcases.TC003_GET_User_Not_Found@6239aba6]" started-at="2021-09-29T15:14:58 IST" name="testInit" finished-at="2021-09-29T15:14:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="checkBaseURIForGETUserNotFound()[pri:1, instance:com.rest.testcases.TC003_GET_User_Not_Found@6239aba6]" started-at="2021-09-29T15:14:58 IST" name="checkBaseURIForGETUserNotFound" finished-at="2021-09-29T15:14:58 IST" duration-ms="455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBaseURIForGETUserNotFound -->
+        <test-method signature="checkResposeBodyForGETUserNotFound()[pri:2, instance:com.rest.testcases.TC003_GET_User_Not_Found@6239aba6]" started-at="2021-09-29T15:14:58 IST" name="checkResposeBodyForGETUserNotFound" finished-at="2021-09-29T15:14:58 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBodyForGETUserNotFound -->
+        <test-method signature="checkStatusCodeForGETUserNotFound()[pri:3, instance:com.rest.testcases.TC003_GET_User_Not_Found@6239aba6]" started-at="2021-09-29T15:14:58 IST" name="checkStatusCodeForGETUserNotFound" finished-at="2021-09-29T15:14:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCodeForGETUserNotFound -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rest.testcases.TC003_GET_User_Not_Found@6239aba6]" started-at="2021-09-29T15:14:58 IST" name="tearDown" finished-at="2021-09-29T15:14:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rest.testcases.TC003_GET_User_Not_Found -->
+      <class name="com.rest.testcases.TC004_POST_Create_User">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rest.testcases.TC004_POST_Create_User@3e6104fc]" started-at="2021-09-29T15:14:58 IST" name="setup" finished-at="2021-09-29T15:14:58 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testInit()[pri:0, instance:com.rest.testcases.TC004_POST_Create_User@3e6104fc]" started-at="2021-09-29T15:14:58 IST" name="testInit" finished-at="2021-09-29T15:14:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="createUserByPOSTRequest()[pri:1, instance:com.rest.testcases.TC004_POST_Create_User@3e6104fc]" started-at="2021-09-29T15:14:58 IST" name="createUserByPOSTRequest" finished-at="2021-09-29T15:14:59 IST" duration-ms="519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserByPOSTRequest -->
+        <test-method signature="verifyResponseForPOSTRequest()[pri:2, instance:com.rest.testcases.TC004_POST_Create_User@3e6104fc]" started-at="2021-09-29T15:14:59 IST" name="verifyResponseForPOSTRequest" finished-at="2021-09-29T15:14:59 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseForPOSTRequest -->
+        <test-method signature="checkResponseStatusCodeForPOSTRequest()[pri:3, instance:com.rest.testcases.TC004_POST_Create_User@3e6104fc]" started-at="2021-09-29T15:14:59 IST" name="checkResponseStatusCodeForPOSTRequest" finished-at="2021-09-29T15:14:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseStatusCodeForPOSTRequest -->
+        <test-method signature="checkStatusLineForPOSTRequest()[pri:4, instance:com.rest.testcases.TC004_POST_Create_User@3e6104fc]" started-at="2021-09-29T15:14:59 IST" name="checkStatusLineForPOSTRequest" finished-at="2021-09-29T15:14:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLineForPOSTRequest -->
+        <test-method signature="checkContentTypeForPOSTRequest()[pri:5, instance:com.rest.testcases.TC004_POST_Create_User@3e6104fc]" started-at="2021-09-29T15:14:59 IST" name="checkContentTypeForPOSTRequest" finished-at="2021-09-29T15:14:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentTypeForPOSTRequest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rest.testcases.TC004_POST_Create_User@3e6104fc]" started-at="2021-09-29T15:14:59 IST" name="tearDown" finished-at="2021-09-29T15:14:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rest.testcases.TC004_POST_Create_User -->
+      <class name="com.rest.testcases.TC007_DELETE_User">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rest.testcases.TC007_DELETE_User@479460a6]" started-at="2021-09-29T15:15:00 IST" name="setup" finished-at="2021-09-29T15:15:00 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testInit()[pri:0, instance:com.rest.testcases.TC007_DELETE_User@479460a6]" started-at="2021-09-29T15:15:00 IST" name="testInit" finished-at="2021-09-29T15:15:00 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="deleteUserRecord()[pri:1, instance:com.rest.testcases.TC007_DELETE_User@479460a6]" started-at="2021-09-29T15:15:00 IST" name="deleteUserRecord" finished-at="2021-09-29T15:15:00 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserRecord -->
+        <test-method signature="verifyResponseForDELETERequest()[pri:2, instance:com.rest.testcases.TC007_DELETE_User@479460a6]" started-at="2021-09-29T15:15:00 IST" name="verifyResponseForDELETERequest" finished-at="2021-09-29T15:15:00 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseForDELETERequest -->
+        <test-method signature="checkResponseStatusCodeForDELETERequest()[pri:3, instance:com.rest.testcases.TC007_DELETE_User@479460a6]" started-at="2021-09-29T15:15:00 IST" name="checkResponseStatusCodeForDELETERequest" finished-at="2021-09-29T15:15:00 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseStatusCodeForDELETERequest -->
+        <test-method signature="checkStatusLineForDELETERequest()[pri:4, instance:com.rest.testcases.TC007_DELETE_User@479460a6]" started-at="2021-09-29T15:15:00 IST" name="checkStatusLineForDELETERequest" finished-at="2021-09-29T15:15:00 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLineForDELETERequest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rest.testcases.TC007_DELETE_User@479460a6]" started-at="2021-09-29T15:15:00 IST" name="tearDown" finished-at="2021-09-29T15:15:00 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rest.testcases.TC007_DELETE_User -->
+      <class name="com.rest.testcases.TC005_PUT_Update_User">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rest.testcases.TC005_PUT_Update_User@12359a82]" started-at="2021-09-29T15:14:59 IST" name="setup" finished-at="2021-09-29T15:14:59 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userUpdateWithPUTRequest()[pri:1, instance:com.rest.testcases.TC005_PUT_Update_User@12359a82]" started-at="2021-09-29T15:14:59 IST" name="userUpdateWithPUTRequest" finished-at="2021-09-29T15:14:59 IST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userUpdateWithPUTRequest -->
+        <test-method is-config="true" signature="testInit()[pri:0, instance:com.rest.testcases.TC005_PUT_Update_User@12359a82]" started-at="2021-09-29T15:14:59 IST" name="testInit" finished-at="2021-09-29T15:14:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="verifyResponseForPUTRequest()[pri:2, instance:com.rest.testcases.TC005_PUT_Update_User@12359a82]" started-at="2021-09-29T15:14:59 IST" name="verifyResponseForPUTRequest" finished-at="2021-09-29T15:14:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResponseForPUTRequest -->
+        <test-method signature="checkResponseStatusCodeForPUTRequest()[pri:3, instance:com.rest.testcases.TC005_PUT_Update_User@12359a82]" started-at="2021-09-29T15:14:59 IST" name="checkResponseStatusCodeForPUTRequest" finished-at="2021-09-29T15:14:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseStatusCodeForPUTRequest -->
+        <test-method signature="checkStatusLineForPUTRequest()[pri:4, instance:com.rest.testcases.TC005_PUT_Update_User@12359a82]" started-at="2021-09-29T15:14:59 IST" name="checkStatusLineForPUTRequest" finished-at="2021-09-29T15:14:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLineForPUTRequest -->
+        <test-method signature="checkContentTypeForPUTRequest()[pri:5, instance:com.rest.testcases.TC005_PUT_Update_User@12359a82]" started-at="2021-09-29T15:14:59 IST" name="checkContentTypeForPUTRequest" finished-at="2021-09-29T15:14:59 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentTypeForPUTRequest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rest.testcases.TC005_PUT_Update_User@12359a82]" started-at="2021-09-29T15:14:59 IST" name="tearDown" finished-at="2021-09-29T15:14:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rest.testcases.TC005_PUT_Update_User -->
+      <class name="com.rest.testcases.TC001_GET_List_of_Users">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rest.testcases.TC001_GET_List_of_Users@1fb669c3]" started-at="2021-09-29T15:14:56 IST" name="setup" finished-at="2021-09-29T15:14:56 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testInit()[pri:0, instance:com.rest.testcases.TC001_GET_List_of_Users@1fb669c3]" started-at="2021-09-29T15:14:56 IST" name="testInit" finished-at="2021-09-29T15:14:56 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="checkBaseURIForGETAllRequest()[pri:1, instance:com.rest.testcases.TC001_GET_List_of_Users@1fb669c3]" started-at="2021-09-29T15:14:56 IST" name="checkBaseURIForGETAllRequest" finished-at="2021-09-29T15:14:57 IST" duration-ms="1604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBaseURIForGETAllRequest -->
+        <test-method signature="checkAllUsersResponseForGETRequest()[pri:2, instance:com.rest.testcases.TC001_GET_List_of_Users@1fb669c3]" started-at="2021-09-29T15:14:57 IST" name="checkAllUsersResponseForGETRequest" finished-at="2021-09-29T15:14:57 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllUsersResponseForGETRequest -->
+        <test-method signature="checkStatusCodeForGETAllUserRequest()[pri:3, instance:com.rest.testcases.TC001_GET_List_of_Users@1fb669c3]" started-at="2021-09-29T15:14:57 IST" name="checkStatusCodeForGETAllUserRequest" finished-at="2021-09-29T15:14:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCodeForGETAllUserRequest -->
+        <test-method signature="checkStatusLineForGETAllUserRequest()[pri:4, instance:com.rest.testcases.TC001_GET_List_of_Users@1fb669c3]" started-at="2021-09-29T15:14:57 IST" name="checkStatusLineForGETAllUserRequest" finished-at="2021-09-29T15:14:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLineForGETAllUserRequest -->
+        <test-method signature="checkContentTypeForGETAllUserRequest()[pri:5, instance:com.rest.testcases.TC001_GET_List_of_Users@1fb669c3]" started-at="2021-09-29T15:14:57 IST" name="checkContentTypeForGETAllUserRequest" finished-at="2021-09-29T15:14:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentTypeForGETAllUserRequest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rest.testcases.TC001_GET_List_of_Users@1fb669c3]" started-at="2021-09-29T15:14:57 IST" name="tearDown" finished-at="2021-09-29T15:14:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rest.testcases.TC001_GET_List_of_Users -->
+      <class name="com.rest.testcases.TC002_GET_Single_User">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.rest.testcases.TC002_GET_Single_User@49c66ade]" started-at="2021-09-29T15:14:57 IST" name="setup" finished-at="2021-09-29T15:14:57 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="testInit()[pri:0, instance:com.rest.testcases.TC002_GET_Single_User@49c66ade]" started-at="2021-09-29T15:14:57 IST" name="testInit" finished-at="2021-09-29T15:14:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method signature="checkBaseURIForGETSingleRequest()[pri:1, instance:com.rest.testcases.TC002_GET_Single_User@49c66ade]" started-at="2021-09-29T15:14:57 IST" name="checkBaseURIForGETSingleRequest" finished-at="2021-09-29T15:14:58 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkBaseURIForGETSingleRequest -->
+        <test-method signature="checkResposeBodyForGETSingleRequest()[pri:2, instance:com.rest.testcases.TC002_GET_Single_User@49c66ade]" started-at="2021-09-29T15:14:58 IST" name="checkResposeBodyForGETSingleRequest" finished-at="2021-09-29T15:14:58 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBodyForGETSingleRequest -->
+        <test-method signature="checkStatusCodeForGETSingleRequest()[pri:3, instance:com.rest.testcases.TC002_GET_Single_User@49c66ade]" started-at="2021-09-29T15:14:58 IST" name="checkStatusCodeForGETSingleRequest" finished-at="2021-09-29T15:14:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCodeForGETSingleRequest -->
+        <test-method signature="checkStatusLineForGETSingleRequest()[pri:4, instance:com.rest.testcases.TC002_GET_Single_User@49c66ade]" started-at="2021-09-29T15:14:58 IST" name="checkStatusLineForGETSingleRequest" finished-at="2021-09-29T15:14:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLineForGETSingleRequest -->
+        <test-method signature="checkContentTypeForGETSingleRequest()[pri:5, instance:com.rest.testcases.TC002_GET_Single_User@49c66ade]" started-at="2021-09-29T15:14:58 IST" name="checkContentTypeForGETSingleRequest" finished-at="2021-09-29T15:14:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentTypeForGETSingleRequest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.rest.testcases.TC002_GET_Single_User@49c66ade]" started-at="2021-09-29T15:14:58 IST" name="tearDown" finished-at="2021-09-29T15:14:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rest.testcases.TC002_GET_Single_User -->
+    </test> <!-- RestAPITest -->
+  </suite> <!-- RestAPISuite -->
+</testng-results>
