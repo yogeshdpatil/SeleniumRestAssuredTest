@@ -19,7 +19,7 @@ public class BaseTest {
 
 	@BeforeClass
 	public void setup() {
-		logger = Logger.getLogger("Practise API");				// added Logger
+		logger = Logger.getLogger("Practise API");	  // added Logger
 		PropertyConfigurator.configure(APIEndpointConstants.LOG4J_FILE_PATH); 	// added logger
 		logger.setLevel(Level.DEBUG);
 	}
